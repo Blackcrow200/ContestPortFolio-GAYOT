@@ -8,5 +8,22 @@ background-attachment: fixed;
 }
 
 h1 {
-  color: red;
+  color: green;
+  backgrouim
+}
+
+.pp {
+
+  position: fixed;
+  right: 5%;
+  justify-content: center;
+  border: 10px solid #ddd;
+  border-radius: 20px;
+  padding-top: 20px;
+  width: 500px;
+  height: auto;
+  display: flex;
+}
+.dogge {
+  width: 100px;
 }
