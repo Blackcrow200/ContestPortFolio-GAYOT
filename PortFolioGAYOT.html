@@ -5,22 +5,44 @@
     <title>GAYOT PortFolio</title>
     <link rel="stylesheet" href="css/master.css">
   </head>
-  <body>
-    <h1>Oue oue <br /></h1>
-    <div class="gradient-border" id="pp-box">
-      <div class="picture1">
-        <img class="pp" src="./image/profilepicture.png" alt="profilepicture">
+  <body class="preload">
+    <div class="fade">
+      <div class="float">
+        <div class="boxes" id="pp-box">
+          <div class="picture1">
+            <img class="pp" src="./image/profilepicture.png" alt="profilepicture">
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="gradient-border" id="box">
-      <h1>Salut !</h1>
-      <img class="dogge" src="./image/dogebread.png" alt="dogebread">
+
+      <div class="boxes col" id="box1">
+        <h1>Mon Parcours :</h1>
+        <div class="box-body">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+      <div class="boxes" id="box2">
+        <h1>Languages étudiés :</h1>
+      </div>
+      <div class="boxes" id="box3">
+        <h1>à propos de moi</h1>
+
+      </div>
+      <div class="boxes" id="box4">
+        <h1>Mes projets</h1>
+      </div>
+
+      <div class="boxes" id="box5">
+        <h1>Mais encore ?</h1>
+      </div>
 
     </div>
-    <div class="gradient-border" id="box">
-      <img class="dogge" src="./image/dogebread.png" alt="dogebread">
-    </div>
-
+    <!-- ____________JS (pour le fondu au noir)____________________ -->
+<script type="text/javascript">
+  window.addEventListener('load', () => {
+  document.body.classList.remove("preload");
+  });
+</script>
 
   </body>
 </html>
